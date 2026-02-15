@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de ejemplo</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header{
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contenedor{
+            padding: 20px;
+        }
+
+        .tarjeta{
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        img{
+            width: 100%;
+            max-width: 300px;
+            border-radius: 6px;
+        }
+
+        button{
+            padding: 10px 15px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #1f6391;
+        }
+
+        footer{
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Encabezado -->
+    <header>
+        <h1>Mi primera página web</h1>
+        <p>Ejemplo de página HTML estática con CSS</p>
+    </header>
+
+    <!-- 2. Menú de navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Información</a>
+        <a href="#">Galería</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- 3. Contenedor principal -->
+    <div class="contenedor">
+
+        <!-- 4. Sección de texto -->
+        <div class="tarjeta">
+            <h2>Bienvenido</h2>
+            <p>Esta página es un ejemplo sencillo de una estructura básica en HTML.</p>
+        </div>
+
+        <!-- 5. Imagen -->
+        <div class="tarjeta">
+            <h2>Imagen de ejemplo</h2>
+            <img src="https://via.placeholder.com/300" alt="Imagen de ejemplo">
+        </div>
+
+        <!-- 6. Lista -->
+        <div class="tarjeta">
+            <h2>Características</h2>
+            <ul>
+                <li>Uso de HTML</li>
+                <li>Estilos con CSS</li>
+                <li>Página estática</li>
+                <li>Estructura simple</li>
+            </ul>
+        </div>
+
+        <!-- 7. Botón -->
+        <div class="tarjeta">
+            <h2>Acción</h2>
+            <p>Este botón no realiza ninguna acción por ahora, solo es visual.</p>
+            <button>Presionar</button>
+        </div>
+
+    </div>
+
+    <!-- 8. Pie de página -->
+    <footer>
+        <p>Página creada como práctica de HTML y CSS</p>
+    </footer>
+
+</body>
+</html>
