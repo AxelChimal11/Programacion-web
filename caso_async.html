@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Async/Await</title>
+
+    <style>
+        body{
+            font-family: Tahoma, sans-serif;
+            background-color: #eef2f7;
+            padding: 30px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        .bloque{
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        button{
+            padding: 10px 15px;
+            border: none;
+            background-color: #6f42c1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #59339d;
+        }
+
+        .resultado{
+            margin-top: 15px;
+            background: #f1f3f5;
+            padding: 10px;
+            border-radius: 5px;
+            min-height: 30px;
+        }
+
+        .producto{
+            border-bottom: 1px solid #ccc;
+            padding: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Práctica Async/Await</h1>
+    <h3 style="text-align:center;">Autor: Axel Jesus</h3>
+
+    <!-- EJERCICIO 1 -->
+    <div class="bloque">
+        <h2>Ejercicio 1 - Simulación de validación</h2>
+        <p>Se simula la validación de un usuario con un pequeño retraso.</p>
+        <button onclick="verificarUsuario()">Verificar Usuario</button>
+        <div id="salida1" class="resultado">Aquí aparecerá el estado...</div>
+    </div>
+
+    <!-- EJERCICIO 2 -->
+    <div class="bloque">
+        <h2>Ejercicio 2 - Consulta de productos</h2>
+        <p>Se obtienen productos desde una API pública.</p>
+        <button onclick="consultarProductos()">Cargar Productos</button>
+        <div id="salida2" class="resultado">Los productos aparecerán aquí...</div>
+    </div>
+
+    <!-- IMPORTANTE: el nombre debe coincidir -->
+    <script src="caso_async.js"></script>
+
+</body>
+</html>
